@@ -10205,7 +10205,6 @@ surface mount</description>
 <part name="TP_A2" library="SmartPrj" deviceset="TP_SP" device=""/>
 <part name="TP_A3" library="SmartPrj" deviceset="TP_SP" device=""/>
 <part name="TP_A4" library="SmartPrj" deviceset="TP_SP" device=""/>
-<part name="TP_A5" library="SmartPrj" deviceset="TP_SP" device=""/>
 <part name="TP_0" library="SmartPrj" deviceset="TP_SP" device=""/>
 <part name="TP_1" library="SmartPrj" deviceset="TP_SP" device=""/>
 <part name="TP_2" library="SmartPrj" deviceset="TP_SP" device=""/>
@@ -11035,7 +11034,7 @@ surface mount</description>
 <junction x="378.46" y="91.44"/>
 </segment>
 </net>
-<net name="SD_CS" class="0">
+<net name="PB02_CS_SD" class="0">
 <segment>
 <wire x1="419.1" y1="20.32" x2="457.2" y2="20.32" width="0.1524" layer="91"/>
 <label x="421.64" y="20.32" size="1.778" layer="95"/>
@@ -11262,7 +11261,6 @@ surface mount</description>
 <instance part="TP_A2" gate="G$1" x="327.66" y="33.02" rot="R270"/>
 <instance part="TP_A3" gate="G$1" x="337.82" y="33.02" rot="R270"/>
 <instance part="TP_A4" gate="G$1" x="350.52" y="33.02" rot="R270"/>
-<instance part="TP_A5" gate="G$1" x="360.68" y="33.02" rot="R270"/>
 <instance part="TP_0" gate="G$1" x="375.92" y="149.86" rot="R90"/>
 <instance part="TP_1" gate="G$1" x="368.3" y="149.86" rot="R90"/>
 <instance part="TP_2" gate="G$1" x="360.68" y="149.86" rot="R90"/>
@@ -11716,12 +11714,6 @@ surface mount</description>
 </net>
 <net name="PA05_AIN5" class="0">
 <segment>
-<pinref part="AD" gate="A" pin="5"/>
-<wire x1="340.36" y1="48.26" x2="340.36" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="340.36" y1="66.04" x2="307.34" y2="66.04" width="0.1524" layer="91"/>
-<label x="307.34" y="66.04" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="PA5/EIC/AIN5/SCOM0PAD1/TC0"/>
 <wire x1="76.2" y1="93.98" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
 <label x="43.18" y="93.98" size="1.778" layer="95"/>
@@ -11729,6 +11721,12 @@ surface mount</description>
 <segment>
 <pinref part="TP_A4" gate="G$1" pin="TESTP"/>
 <wire x1="350.52" y1="33.02" x2="350.52" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="AD" gate="A" pin="5"/>
+<wire x1="340.36" y1="48.26" x2="340.36" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="66.04" x2="307.34" y2="66.04" width="0.1524" layer="91"/>
+<label x="307.34" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA08_TCC0-W0_PA8" class="0">
@@ -11833,21 +11831,11 @@ surface mount</description>
 <wire x1="330.2" y1="149.86" x2="330.2" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PB02_AIN10" class="0">
-<segment>
-<pinref part="AD" gate="A" pin="6"/>
-<wire x1="342.9" y1="48.26" x2="342.9" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="68.58" x2="307.34" y2="68.58" width="0.1524" layer="91"/>
-<label x="307.34" y="68.58" size="1.778" layer="95"/>
-</segment>
+<net name="PB02_CS_SD" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="PB2/EIC/AIN10/SCOM5PAD0"/>
 <wire x1="165.1" y1="114.3" x2="193.04" y2="114.3" width="0.1524" layer="91"/>
 <label x="175.26" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TP_A5" gate="G$1" pin="TESTP"/>
-<wire x1="360.68" y1="33.02" x2="360.68" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$56" class="0">
@@ -12240,6 +12228,11 @@ surface mount</description>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="66.04" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="55.88" x2="208.28" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<wire x1="342.9" y1="71.12" x2="340.36" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
