@@ -7262,18 +7262,18 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <rectangle x1="-0.305" y1="-0.15" x2="0.305" y2="0.15" layer="51"/>
 </package>
 <package name="SLF10165">
-<wire x1="-5.05" y1="5.05" x2="5.05" y2="5.05" width="0.127" layer="21"/>
-<wire x1="5.05" y1="-5.05" x2="-5.05" y2="-5.05" width="0.127" layer="21"/>
+<wire x1="-5.05" y1="5.05" x2="5.05" y2="5.05" width="0.127" layer="51"/>
+<wire x1="5.05" y1="-5.05" x2="-5.05" y2="-5.05" width="0.127" layer="51"/>
 <smd name="P$1" x="-4.05" y="0" dx="2.5" dy="3.2" layer="1"/>
 <smd name="P$2" x="4.05" y="0" dx="2.5" dy="3.2" layer="1"/>
-<text x="-2.54" y="5.08" size="1.27" layer="21">&gt;Name</text>
-<text x="-2.54" y="-6.35" size="1.27" layer="21">&gt;Value</text>
-<wire x1="-5.05" y1="5.05" x2="-5.05" y2="1.95" width="0.127" layer="21"/>
-<wire x1="-5.05" y1="-5.05" x2="-5.05" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="5.05" y1="-5.05" x2="5.05" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="5.05" y1="5.05" x2="5.05" y2="1.95" width="0.127" layer="21"/>
-<wire x1="-4.4" y1="1.95" x2="4.45" y2="1.9" width="0.127" layer="21" curve="-132.977101"/>
-<wire x1="4.45" y1="-2" x2="-4.4" y2="-1.95" width="0.127" layer="21" curve="-132.977101"/>
+<text x="-2.54" y="5.08" size="1.27" layer="51">&gt;Name</text>
+<text x="-2.54" y="-6.35" size="1.27" layer="51">&gt;Value</text>
+<wire x1="-5.05" y1="5.05" x2="-5.05" y2="1.95" width="0.127" layer="51"/>
+<wire x1="-5.05" y1="-5.05" x2="-5.05" y2="-1.95" width="0.127" layer="51"/>
+<wire x1="5.05" y1="-5.05" x2="5.05" y2="-1.95" width="0.127" layer="51"/>
+<wire x1="5.05" y1="5.05" x2="5.05" y2="1.95" width="0.127" layer="51"/>
+<wire x1="-4.4" y1="1.95" x2="4.45" y2="1.9" width="0.127" layer="51" curve="-132.977101"/>
+<wire x1="4.45" y1="-2" x2="-4.4" y2="-1.95" width="0.127" layer="51" curve="-132.977101"/>
 </package>
 <package name="L2012C">
 <description>&lt;b&gt;INDUCTOR&lt;/b&gt;</description>
@@ -9906,7 +9906,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="C-EU" prefix="C" uservalue="yes">
+<deviceset name="C-EU" uservalue="yes">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
@@ -10615,6 +10615,15 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 </technologies>
 </device>
 <device name="01005" package="C01005">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0402_SMALL" package="0402_SMALL">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -11383,12 +11392,12 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="MFS201N-9-Z">
-<pad name="P$1" x="-4" y="1.25" drill="0.8" diameter="1.778" shape="octagon"/>
-<pad name="P$2" x="-4" y="-1.25" drill="0.8" diameter="1.778" shape="octagon"/>
-<pad name="P$3" x="0" y="1.25" drill="0.8" diameter="1.778" shape="octagon"/>
-<pad name="P$4" x="0" y="-1.25" drill="0.8" diameter="1.778" shape="octagon"/>
-<pad name="P$5" x="4" y="1.25" drill="0.8" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="P$6" x="4" y="-1.25" drill="0.8" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="P$1" x="-4" y="1.25" drill="1.2" diameter="1.9304" shape="octagon"/>
+<pad name="P$2" x="-4" y="-1.25" drill="1.2" diameter="1.9304" shape="octagon"/>
+<pad name="P$3" x="0" y="1.25" drill="1.2" diameter="1.9304" shape="octagon"/>
+<pad name="P$4" x="0" y="-1.25" drill="1.2" diameter="1.9304" shape="octagon"/>
+<pad name="P$5" x="4" y="1.25" drill="1.2" diameter="1.9304" shape="octagon" rot="R90"/>
+<pad name="P$6" x="4" y="-1.25" drill="1.2" diameter="1.4224" shape="long" rot="R180"/>
 <pad name="P$7" x="-8.25" y="0" drill="2.3" diameter="3.81" shape="octagon"/>
 <pad name="P$8" x="8.25" y="0" drill="2.3" diameter="3.81" shape="octagon"/>
 <wire x1="8.5" y1="3.25" x2="8.5" y2="-3.25" width="0.127" layer="21"/>
@@ -13063,7 +13072,7 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <text x="-2" y="-2.5" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.8" y1="-0.55" x2="-1.425" y2="0.55" layer="51"/>
 <rectangle x1="1.425" y1="-0.55" x2="1.8" y2="0.55" layer="51" rot="R180"/>
-<rectangle x1="-0.95" y1="-0.775" x2="-0.65" y2="0.8" layer="21"/>
+<rectangle x1="-0.95" y1="-0.775" x2="-0.65" y2="0.8" layer="51"/>
 </package>
 </packages>
 <symbols>

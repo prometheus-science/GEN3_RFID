@@ -8,44 +8,44 @@
 </settings>
 <grid distance="5" unitdist="mil" unit="inch" style="lines" multiple="10" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="41" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
 <layer number="18" name="Vias" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="42" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="52" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="42" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="52" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="53" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="2" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="5" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="ReferenceLC" color="13" fill="1" visible="yes" active="yes"/>
-<layer number="50" name="ReferenceLS" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="23" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="2" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="5" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="ReferenceLC" color="13" fill="1" visible="no" active="yes"/>
+<layer number="50" name="ReferenceLS" color="12" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
@@ -88,8 +88,8 @@
 <layer number="111" name="111" color="7" fill="1" visible="no" active="no"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
-<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="no"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
@@ -100,7 +100,7 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="no"/>
@@ -136,11 +136,11 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
@@ -161,7 +161,7 @@
 <text x="36.957" y="4.318" size="1.016" layer="21" font="vector" ratio="12">5V</text>
 <text x="51.0046" y="4.2032" size="1.016" layer="21" font="vector" ratio="12" rot="R90">PA2</text>
 <text x="23.3978" y="49.6702" size="0.6096" layer="21" ratio="12" rot="R240">AREF</text>
-<text x="61.2464" y="29.9444" size="1.27" layer="25" font="vector" ratio="15">1</text>
+<text x="61.2464" y="29.9444" size="0.8128" layer="25" font="vector" ratio="15">1</text>
 <text x="27.5468" y="49.13" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">GND</text>
 <text x="33.909" y="3.683" size="0.8128" layer="21" font="vector" ratio="10" rot="R60">RESET</text>
 <text x="36.068" y="4.318" size="0.8128" layer="21" font="vector" ratio="10" rot="R60">3V3</text>
@@ -2389,18 +2389,18 @@ Metric Code Size 3216</description>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 <package name="SLF10165">
-<wire x1="-5.05" y1="5.05" x2="5.05" y2="5.05" width="0.127" layer="21"/>
-<wire x1="5.05" y1="-5.05" x2="-5.05" y2="-5.05" width="0.127" layer="21"/>
+<wire x1="-5.05" y1="5.05" x2="5.05" y2="5.05" width="0.127" layer="51"/>
+<wire x1="5.05" y1="-5.05" x2="-5.05" y2="-5.05" width="0.127" layer="51"/>
 <smd name="P$1" x="-4.05" y="0" dx="2.5" dy="3.2" layer="1"/>
 <smd name="P$2" x="4.05" y="0" dx="2.5" dy="3.2" layer="1"/>
-<text x="-2.54" y="5.08" size="1.27" layer="21">&gt;Name</text>
-<text x="-2.54" y="-6.35" size="1.27" layer="21">&gt;Value</text>
-<wire x1="-5.05" y1="5.05" x2="-5.05" y2="1.95" width="0.127" layer="21"/>
-<wire x1="-5.05" y1="-5.05" x2="-5.05" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="5.05" y1="-5.05" x2="5.05" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="5.05" y1="5.05" x2="5.05" y2="1.95" width="0.127" layer="21"/>
-<wire x1="-4.4" y1="1.95" x2="4.45" y2="1.9" width="0.127" layer="21" curve="-132.977101"/>
-<wire x1="4.45" y1="-2" x2="-4.4" y2="-1.95" width="0.127" layer="21" curve="-132.977101"/>
+<text x="-2.54" y="5.08" size="1.27" layer="51">&gt;Name</text>
+<text x="-2.54" y="-6.35" size="1.27" layer="51">&gt;Value</text>
+<wire x1="-5.05" y1="5.05" x2="-5.05" y2="1.95" width="0.127" layer="51"/>
+<wire x1="-5.05" y1="-5.05" x2="-5.05" y2="-1.95" width="0.127" layer="51"/>
+<wire x1="5.05" y1="-5.05" x2="5.05" y2="-1.95" width="0.127" layer="51"/>
+<wire x1="5.05" y1="5.05" x2="5.05" y2="1.95" width="0.127" layer="51"/>
+<wire x1="-4.4" y1="1.95" x2="4.45" y2="1.9" width="0.127" layer="51" curve="-132.977101"/>
+<wire x1="4.45" y1="-2" x2="-4.4" y2="-1.95" width="0.127" layer="51" curve="-132.977101"/>
 </package>
 <package name="L1008(2520METRIC)">
 <wire x1="-1.2" y1="1" x2="1.2" y2="1" width="0.1016" layer="51"/>
@@ -2483,12 +2483,12 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="MFS201N-9-Z">
-<pad name="P$1" x="-4" y="1.25" drill="0.8" diameter="1.778" shape="octagon"/>
-<pad name="P$2" x="-4" y="-1.25" drill="0.8" diameter="1.778" shape="octagon"/>
-<pad name="P$3" x="0" y="1.25" drill="0.8" diameter="1.778" shape="octagon"/>
-<pad name="P$4" x="0" y="-1.25" drill="0.8" diameter="1.778" shape="octagon"/>
-<pad name="P$5" x="4" y="1.25" drill="0.8" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="P$6" x="4" y="-1.25" drill="0.8" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="P$1" x="-4" y="1.25" drill="1.2" diameter="1.9304" shape="octagon"/>
+<pad name="P$2" x="-4" y="-1.25" drill="1.2" diameter="1.9304" shape="octagon"/>
+<pad name="P$3" x="0" y="1.25" drill="1.2" diameter="1.9304" shape="octagon"/>
+<pad name="P$4" x="0" y="-1.25" drill="1.2" diameter="1.9304" shape="octagon"/>
+<pad name="P$5" x="4" y="1.25" drill="1.2" diameter="1.9304" shape="octagon" rot="R90"/>
+<pad name="P$6" x="4" y="-1.25" drill="1.2" diameter="1.4224" shape="long" rot="R180"/>
 <pad name="P$7" x="-8.25" y="0" drill="2.3" diameter="3.81" shape="octagon"/>
 <pad name="P$8" x="8.25" y="0" drill="2.3" diameter="3.81" shape="octagon"/>
 <wire x1="8.5" y1="3.25" x2="8.5" y2="-3.25" width="0.127" layer="21"/>
@@ -2945,7 +2945,7 @@ Based on the following sources:
 <text x="-2" y="-2.5" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.8" y1="-0.55" x2="-1.425" y2="0.55" layer="51"/>
 <rectangle x1="1.425" y1="-0.55" x2="1.8" y2="0.55" layer="51" rot="R180"/>
-<rectangle x1="-0.95" y1="-0.775" x2="-0.65" y2="0.8" layer="21"/>
+<rectangle x1="-0.95" y1="-0.775" x2="-0.65" y2="0.8" layer="51"/>
 </package>
 </packages>
 </library>
@@ -3169,7 +3169,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="ICSP" library="Connettori" package="2X03" value="3x2 M" x="64.897" y="27.94" smashed="yes" rot="R270">
-<attribute name="NAME" x="63.41" y="32.194" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="63.41" y="32.194" size="0.8128" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" value="ICSP" x="67.424" y="23.672" size="0.8128" layer="27" rot="R180"/>
 <attribute name="CASE" value="" x="64.897" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="_____" x="64.897" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3219,7 +3219,7 @@ design rules under a new name.</description>
 <attribute name="PART_NUMBER" value="IT-1157AHNP-160G-G_GTR" x="23.241" y="6.223" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="POWER" library="Connettori" package="1X08" value="FH254-108DF08500V" x="36.83" y="2.54" smashed="yes">
-<attribute name="NAME" x="36.0934" y="6.604" size="1.016" layer="25" ratio="10"/>
+<attribute name="NAME" x="36.0934" y="6.604" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" value="FH254-108DF08500V" x="31.2928" y="-1.905" size="1.27" layer="27"/>
 <attribute name="CASE" value="" x="36.83" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="_____" x="36.83" y="2.54" size="1.778" layer="27" display="off"/>
@@ -3229,7 +3229,7 @@ design rules under a new name.</description>
 <attribute name="PART_NUMBER" value="20TW-536" x="36.83" y="2.54" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D2" library="Diodi" package="MINIMELF" value="CD1206-S01575" x="31.083" y="5.82" smashed="yes">
-<attribute name="NAME" x="28.407" y="5.281" size="0.6096" layer="25" rot="R90"/>
+<attribute name="NAME" x="28.407" y="5.281" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" value="CD1206-S01575" x="27.467" y="6.85" size="0.6096" layer="27"/>
 <attribute name="CASE" value="1206" x="31.083" y="5.82" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="_____" x="31.083" y="5.82" size="1.778" layer="27" display="off"/>
@@ -3239,14 +3239,14 @@ design rules under a new name.</description>
 <attribute name="PART_NUMBER" value="CD1206-S01575" x="31.083" y="5.82" size="1.778" layer="27" display="off"/>
 </element>
 <element name="IC2" library="IntegratedCircuits" package="TQFP48-7X7" value="SAMD21G18A-AUT" x="48.97" y="35.9918" smashed="yes" rot="R180">
-<attribute name="NAME" x="45.91" y="32.1878" size="0.6096" layer="25" rot="R180"/>
+<attribute name="NAME" x="45.91" y="32.1878" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="52.206" y="31.0389" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="C_CO3" library="rcl" package="C0805" value="10uF" x="37.9514" y="16.742" smashed="yes" rot="R90">
-<attribute name="NAME" x="37.1242" y="13.614" size="0.6096" layer="25"/>
+<attribute name="NAME" x="37.1242" y="13.614" size="0.8128" layer="25"/>
 </element>
 <element name="L2" library="rcl" package="L1008(2520METRIC)" value="2.2uH" x="34.6812" y="10.5156" smashed="yes" rot="R270">
-<attribute name="NAME" x="36.6868" y="9.9179" size="0.6096" layer="25" rot="R180"/>
+<attribute name="NAME" x="36.6868" y="9.9179" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="C19" library="Condensatori" package="C0603-ROUND" value="1uF" x="47.3686" y="23.8564" smashed="yes" rot="R270">
 <attribute name="CASE" value="0603" x="47.3686" y="23.8564" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3255,7 +3255,7 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="Condensatori" x="47.3686" y="23.8564" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="47.3686" y="23.8564" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PART_NUMBER" value="1uF_0603/GRM188R61E105KA12D" x="47.3686" y="23.8564" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="46.6346" y="25.4156" size="0.6096" layer="25"/>
+<attribute name="NAME" x="46.6346" y="25.4156" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="46.0996" y="24.8044" size="0.6096" layer="27" rot="R270"/>
 </element>
 <element name="C20" library="Condensatori" package="C0603-ROUND" value="100nF" x="43.3683" y="32.1506" smashed="yes" rot="R90">
@@ -3265,7 +3265,7 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="Condensatori" x="43.3683" y="32.1506" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="43.3683" y="32.1506" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_NUMBER" value="cl10b104kbnc" x="43.3683" y="32.1506" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="43.3513" y="33.7426" size="0.6096" layer="25" rot="R90"/>
+<attribute name="NAME" x="43.3513" y="33.7426" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="42.4793" y="32.9626" size="0.6096" layer="27" rot="R90"/>
 </element>
 <element name="C21" library="Condensatori" package="C0603-ROUND" value="100nF" x="55.7202" y="34.8588" smashed="yes" rot="R180">
@@ -3275,7 +3275,7 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="Condensatori" x="55.7202" y="34.8588" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="55.7202" y="34.8588" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PART_NUMBER" value="cl10b104kbnc" x="55.7202" y="34.8588" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="56.2214" y="36.9908" size="0.6096" layer="25" rot="R180"/>
+<attribute name="NAME" x="56.2214" y="36.9908" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="54.5658" y="35.5792" size="0.6096" layer="27"/>
 </element>
 <element name="L6" library="Protezione" package="0805" value="MH2029-300Y" x="58.349" y="31.9782" smashed="yes" rot="R270">
@@ -3286,7 +3286,7 @@ design rules under a new name.</description>
 <attribute name="MONTHLY_USAGE" value="_____" x="58.349" y="31.9782" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PART_NUMBER" value="BLM21PG300SN1D_/_MH2029-300Y" x="58.349" y="31.9782" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="59.1745" y="35.0262" size="0.6096" layer="27" rot="R270"/>
-<attribute name="NAME" x="58.825" y="34.5637" size="0.6096" layer="25" rot="R180"/>
+<attribute name="NAME" x="58.825" y="34.5637" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="Y4" library="Cristalli" package="RESONATOR_EPSON_FC_145" value="32,768Khz" x="54.61" y="30.48" smashed="yes">
 <attribute name="CASE" value="" x="54.61" y="30.48" size="1.778" layer="27" display="off"/>
@@ -3305,7 +3305,7 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="Condensatori" x="53.721" y="27.686" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="53.721" y="27.686" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_NUMBER" value="22pF_0603" x="53.721" y="27.686" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="52.962" y="28.934" size="0.6096" layer="25" rot="R180"/>
+<attribute name="NAME" x="52.962" y="28.934" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="53.0057" y="28.0403" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="C24" library="Condensatori" package="C0603-ROUND" value="22p" x="55.626" y="27.686" smashed="yes" rot="R90">
@@ -3315,7 +3315,7 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="Condensatori" x="55.626" y="27.686" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="55.626" y="27.686" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_NUMBER" value="22pF_0603" x="55.626" y="27.686" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="56.4424" y="28.2924" size="0.6096" layer="25"/>
+<attribute name="NAME" x="56.4424" y="28.2924" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="58.0751" y="28.1131" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="LED1" library="Opto" package="CHIPLED_0805" value="Yellow" x="8.255" y="3.048" smashed="yes" rot="R180">
@@ -3325,7 +3325,7 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="Opto" x="8.255" y="3.048" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="8.255" y="3.048" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PART_NUMBER" value="KPT-2012YC" x="8.255" y="3.048" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.234" y="5.2764" size="0.6096" layer="25" rot="R90"/>
+<attribute name="NAME" x="7.345" y="2.1014" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="9.049" y="5.213" size="0.6096" layer="27" rot="R90"/>
 </element>
 <element name="R12" library="Resistenze" package="R0603-ROUND" value="10k" x="40.386" y="36.703" smashed="yes" rot="R180">
@@ -3335,7 +3335,7 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="Resistenze" x="40.386" y="36.703" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="40.386" y="36.703" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PART_NUMBER" value="CR0603JW103L" x="40.386" y="36.703" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="41.147" y="34.232" size="0.6096" layer="25" rot="R90"/>
+<attribute name="NAME" x="41.147" y="34.232" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="41.298" y="37.931" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="R13" library="Resistenze" package="R0603-ROUND" value="10k" x="40.386" y="38.481" smashed="yes" rot="R180">
@@ -3345,11 +3345,11 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="Resistenze" x="40.386" y="38.481" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="40.386" y="38.481" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PART_NUMBER" value="CR0603JW103L" x="40.386" y="38.481" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="39.13" y="39.2014" size="0.6096" layer="25"/>
+<attribute name="NAME" x="39.13" y="39.2014" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="41.224" y="37.869" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="Z5" library="Protezione" package="CT/CN0603" value="CG0603MLC-05E" x="15.24" y="23.5815" smashed="yes">
-<attribute name="NAME" x="15.85" y="24.9135" size="0.6096" layer="25" rot="R180"/>
+<attribute name="NAME" x="15.85" y="24.9135" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" value="BRNCG0603MLC-05E" x="12.422" y="22.4625" size="0.4064" layer="27"/>
 <attribute name="CASE" value="" x="15.24" y="23.5815" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="_____" x="15.24" y="23.5815" size="1.778" layer="27" display="off"/>
@@ -3359,7 +3359,7 @@ design rules under a new name.</description>
 <attribute name="PART_NUMBER" value="BRNCG0603MLC-05E" x="15.24" y="23.5815" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Z6" library="Protezione" package="CT/CN0603" value="CG0603MLC-05E" x="15.24" y="26.4542" smashed="yes">
-<attribute name="NAME" x="15.838" y="25.7728" size="0.6096" layer="25" rot="R180"/>
+<attribute name="NAME" x="15.838" y="25.7728" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" value="BRNCG0603MLC-05E" x="12.425" y="27.1422" size="0.4064" layer="27"/>
 <attribute name="CASE" value="" x="15.24" y="26.4542" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="_____" x="15.24" y="26.4542" size="1.778" layer="27" display="off"/>
@@ -3369,7 +3369,7 @@ design rules under a new name.</description>
 <attribute name="PART_NUMBER" value="BRNCG0603MLC-05E" x="15.24" y="26.4542" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C26" library="Condensatori" package="C0603-ROUND" value="10n" x="12.4776" y="27.3812" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.232" y="29.355" size="0.6096" layer="25" rot="R270"/>
+<attribute name="NAME" x="13.232" y="29.355" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" value="10nF" x="13.6166" y="25.7882" size="0.6096" layer="27" rot="R180"/>
 <attribute name="CASE" value="0603" x="12.4776" y="27.3812" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="_____" x="12.4776" y="27.3812" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3386,7 +3386,7 @@ design rules under a new name.</description>
 <attribute name="MONTHLY_USAGE" value="_____" x="3.2996" y="31.8008" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PART_NUMBER" value="BLM21PG300SN1D_/_MH2029-300Y" x="3.2996" y="31.8008" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="5.7836" y="30.9133" size="0.6096" layer="27" rot="R180"/>
-<attribute name="NAME" x="4.3156" y="30.2133" size="0.6096" layer="25" rot="R180"/>
+<attribute name="NAME" x="4.3156" y="30.2133" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="C1" library="Condensatori" package="C0603-ROUND" value="100nF" x="48.9924" y="23.8828" smashed="yes" rot="R270">
 <attribute name="CASE" value="0603" x="48.9924" y="23.8828" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3395,7 +3395,7 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="Condensatori" x="48.9924" y="23.8828" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="48.9924" y="23.8828" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PART_NUMBER" value="cl10b104kbnc" x="48.9924" y="23.8828" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="48.5328" y="25.3916" size="0.6096" layer="25"/>
+<attribute name="NAME" x="48.5328" y="25.3916" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="47.6898" y="21.7438" size="0.6096" layer="27"/>
 </element>
 <element name="R1" library="Resistenze" package="R0603-ROUND" value="10k" x="30.712" y="8.109" smashed="yes" rot="R180">
@@ -3405,7 +3405,7 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="Resistenze" x="30.712" y="8.109" size="0.6096" layer="27" rot="R180" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="30.712" y="8.109" size="0.6096" layer="27" rot="R180" display="off"/>
 <attribute name="PART_NUMBER" value="CR0603JW103L" x="30.712" y="8.109" size="0.6096" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="31.922" y="9.282" size="0.6096" layer="25" rot="R180"/>
+<attribute name="NAME" x="31.922" y="9.282" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="33.827" y="8.687" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="C3" library="Condensatori" package="C0603-ROUND" value="100nF" x="50.201" y="43.034" smashed="yes">
@@ -3415,7 +3415,7 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="Condensatori" x="50.201" y="43.034" size="1.778" layer="27" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="50.201" y="43.034" size="1.778" layer="27" display="off"/>
 <attribute name="PART_NUMBER" value="cl10b104kbnc" x="50.201" y="43.034" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="49.832" y="43.731" size="0.6096" layer="25"/>
+<attribute name="NAME" x="49.832" y="43.731" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="48.987" y="41.717" size="0.6096" layer="27"/>
 </element>
 <element name="C4" library="Condensatori" package="C0603-ROUND" value="100nF" x="59.019" y="42.284" smashed="yes" rot="R90">
@@ -3425,7 +3425,7 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="Condensatori" x="59.019" y="42.284" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="59.019" y="42.284" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_NUMBER" value="cl10b104kbnc" x="59.019" y="42.284" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="58.54" y="43.724" size="0.6096" layer="25"/>
+<attribute name="NAME" x="58.54" y="43.724" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="57.694" y="43.822" size="0.6096" layer="27" rot="R270"/>
 </element>
 <element name="C5" library="Condensatori" package="SMC_A" value="4u7" x="57.082" y="43.203" smashed="yes" rot="R90">
@@ -3435,25 +3435,25 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="Condensatori" x="57.082" y="43.203" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="57.082" y="43.203" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_NUMBER" value="TAJA475M016RNJ" x="57.082" y="43.203" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="59.235" y="44.423" size="0.6096" layer="25" rot="R180"/>
+<attribute name="NAME" x="59.235" y="44.423" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="59.743" y="43.588" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="C_CO2" library="rcl" package="C0805" value="22uF" x="37.338" y="10.287" smashed="yes" rot="R270">
-<attribute name="NAME" x="36.957" y="12.827" size="0.6096" layer="25"/>
+<attribute name="NAME" x="36.957" y="12.827" size="0.8128" layer="25"/>
 </element>
 <element name="C_CO1" library="rcl" package="C0805" value="22uF" x="41.021" y="8.382" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.45" y="9.017" size="0.8128" layer="25" rot="R270"/>
 </element>
 <element name="R-UP" library="Resistenze" package="R0603-ROUND" value="16K_1%" x="30.8864" y="11.684" smashed="yes" rot="R270">
 <attribute name="PART_NUMBER" value="CR0603FW104L" x="31.0134" y="15.367" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="32.3054" y="10.4868" size="0.6096" layer="25" rot="R90"/>
+<attribute name="NAME" x="32.3054" y="10.4868" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="29.5436" y="13.5602" size="0.6096" layer="27" rot="R270"/>
 </element>
 <element name="R_DN" library="Resistenze" package="R0603-ROUND" value="5.1K_0.1%" x="28.6986" y="14.0208" smashed="yes">
 <attribute name="CASE" value="0603" x="25.0156" y="3.7338" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="Resistenze" x="25.0156" y="3.7338" size="1.778" layer="27" display="off"/>
 <attribute name="PART_NUMBER" value="" x="25.0156" y="3.7338" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="27.9146" y="12.6458" size="0.6096" layer="25"/>
+<attribute name="NAME" x="27.9146" y="12.6458" size="0.8128" layer="25"/>
 <attribute name="VALUE" value="19K1_0,1%" x="26.9528" y="13.4874" size="0.6096" layer="27" rot="R270"/>
 <attribute name="PRICE" value="_____" x="28.6986" y="14.0208" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER" value="_____" x="28.6986" y="14.0208" size="1.778" layer="27" display="off"/>
@@ -3466,7 +3466,7 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="Resistenze" x="42.926" y="24.511" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="42.926" y="24.511" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PART_NUMBER" value="330R_0603" x="42.926" y="24.511" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="43.561" y="26.67" size="0.6096" layer="25" rot="R180"/>
+<attribute name="NAME" x="43.561" y="26.67" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="42.037" y="23.495" size="0.6096" layer="27" rot="R90"/>
 </element>
 <element name="C8" library="Condensatori" package="C0603-ROUND" value="10nF" x="44.45" y="24.511" smashed="yes" rot="R270">
@@ -3476,12 +3476,15 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="Condensatori" x="44.45" y="24.511" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="44.45" y="24.511" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PART_NUMBER" value="10nF_0603" x="44.45" y="24.511" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="43.942" y="26.035" size="0.6096" layer="25"/>
+<attribute name="NAME" x="43.942" y="26.035" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="45.212" y="25.908" size="0.6096" layer="27" rot="R270"/>
 </element>
-<element name="CN2" library="Connettori" package="PINHEAD_2X05_127" value="PINHEAD-2x5-P1.27" x="64.897" y="18" locked="yes"/>
+<element name="CN2" library="Connettori" package="PINHEAD_2X05_127" value="PINHEAD-2x5-P1.27" x="64.897" y="18" locked="yes" smashed="yes"/>
 <element name="U$4" library="microbuilder" package="06132" value="SDMMC06132" x="25.908" y="25.146" rot="MR90"/>
-<element name="Y1" library="microbuilder" package="CRYSTAL_8X3.8" value="32.768kHz" x="28.702" y="44.831" rot="R180"/>
+<element name="Y1" library="microbuilder" package="CRYSTAL_8X3.8" value="32.768kHz" x="28.702" y="44.831" smashed="yes" rot="R180">
+<attribute name="NAME" x="30.602" y="41.977" size="0.8128" layer="25" ratio="18" rot="R180"/>
+<attribute name="VALUE" x="30.602" y="42.504" size="0.4064" layer="27" ratio="10" rot="R180"/>
+</element>
 <element name="R6" library="Resistenze" package="R0603-ROUND" value="100R" x="10.668" y="2.54" smashed="yes" rot="R90">
 <attribute name="PRICE" value="_____" x="10.668" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CASE" value="0603" x="10.668" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3489,147 +3492,230 @@ design rules under a new name.</description>
 <attribute name="PART_NUMBER" value="0R_0603" x="10.668" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER" value="_____" x="10.668" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TYPE" value="Resistenze" x="10.668" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="11.43" y="4.572" size="0.6096" layer="25" rot="R90"/>
+<attribute name="NAME" x="11.811" y="2.159" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="10.668" y="4.191" size="0.6096" layer="27" rot="R90"/>
 </element>
-<element name="IC6" library="em-microelectronic" package="SO16" value="EM4095" x="29.337" y="34.417" rot="R270"/>
-<element name="CFCAP" library="rcl" package="C0603-ROUND" value="" x="35.179" y="37.465"/>
+<element name="IC6" library="em-microelectronic" package="SO16" value="EM4095" x="29.337" y="34.417" smashed="yes" rot="R270">
+<attribute name="NAME" x="27.432" y="39.497" size="1.27" layer="25"/>
+<attribute name="VALUE" x="28.702" y="38.862" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="CFCAP" library="rcl" package="C0603-ROUND" value="" x="35.179" y="37.465" smashed="yes">
+<attribute name="NAME" x="34.29" y="38.227" size="1.27" layer="25"/>
+<attribute name="VALUE" x="34.29" y="35.433" size="1.27" layer="27"/>
+</element>
 <element name="CDC2" library="rcl" package="C0603-ROUND" value="" x="35.179" y="39.116" smashed="yes">
-<attribute name="NAME" x="35.103" y="37.422" size="0.6096" layer="25"/>
+<attribute name="NAME" x="35.103" y="37.422" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="33.579" y="37.016" size="1.016" layer="27"/>
 </element>
-<element name="CDEC" library="rcl" package="C0603-ROUND" value="" x="32.385" y="28.321"/>
-<element name="CAGND" library="rcl" package="C0603-ROUND" value="" x="34.417" y="33.274" rot="R90"/>
-<element name="CRES" library="rcl" package="C1206K" value="" x="22.86" y="31.877" rot="R180"/>
-<element name="CDIV1" library="rcl" package="C1206K" value="" x="22.86" y="29.464"/>
+<element name="CDEC" library="rcl" package="C0603-ROUND" value="" x="32.385" y="28.321" smashed="yes">
+<attribute name="NAME" x="31.496" y="29.083" size="1.27" layer="25"/>
+<attribute name="VALUE" x="31.496" y="26.289" size="1.27" layer="27"/>
+</element>
+<element name="CAGND" library="rcl" package="C0603-ROUND" value="" x="34.417" y="33.274" smashed="yes" rot="R90">
+<attribute name="NAME" x="33.655" y="32.385" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="36.449" y="32.385" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="CRES" library="rcl" package="C1206K" value="" x="22.86" y="31.877" smashed="yes" rot="R180">
+<attribute name="NAME" x="24.46" y="30.777" size="1.016" layer="25" rot="R180"/>
+<attribute name="VALUE" x="24.46" y="33.977" size="1.016" layer="27" rot="R180"/>
+</element>
+<element name="CDIV1" library="rcl" package="C1206K" value="" x="22.86" y="29.464" smashed="yes">
+<attribute name="NAME" x="21.26" y="30.564" size="1.016" layer="25"/>
+<attribute name="VALUE" x="21.26" y="27.364" size="1.016" layer="27"/>
+</element>
 <element name="CDIV2" library="rcl" package="C1206K" value="" x="27.813" y="27.813" smashed="yes">
-<attribute name="NAME" x="27.229" y="26.119" size="0.6096" layer="25"/>
+<attribute name="NAME" x="27.229" y="26.119" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="26.213" y="25.713" size="1.016" layer="27"/>
 </element>
-<element name="R7" library="rcl" package="R1206" value="" x="22.987" y="36.83"/>
-<element name="R9" library="Resistenze" package="R0603-ROUND" value="10k" x="42.037" y="45.212" rot="R90">
+<element name="R7" library="rcl" package="R1206" value="" x="22.987" y="36.83" smashed="yes">
+<attribute name="NAME" x="21.717" y="38.1" size="1.27" layer="25"/>
+<attribute name="VALUE" x="21.717" y="34.29" size="1.27" layer="27"/>
+</element>
+<element name="R9" library="Resistenze" package="R0603-ROUND" value="10k" x="42.037" y="45.212" smashed="yes" rot="R90">
 <attribute name="CASE" value="0603" x="42.037" y="45.212" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="42.037" y="45.212" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TYPE" value="Resistenze" x="42.037" y="45.212" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="_____" x="42.037" y="45.212" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER" value="_____" x="42.037" y="45.212" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_NUMBER" value="CR0603JW103L" x="42.037" y="45.212" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="41.148" y="44.323" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="44.069" y="44.323" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U$5" library="USB_miniB" package="USB-MINIB" value="USB-MINIB-5PIN" x="6.604" y="24.638"/>
-<element name="U$6" library="con-molex" package="LITE_TRAP_MINI" value="LITE_TRAP_2POS" x="4.826" y="14.986" rot="R180"/>
+<element name="U$5" library="USB_miniB" package="USB-MINIB" value="USB-MINIB-5PIN" x="6.604" y="24.638" smashed="yes">
+<attribute name="NAME" x="2.794" y="25.908" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="2.794" y="24.638" size="0.4064" layer="27"/>
+</element>
+<element name="U$6" library="con-molex" package="LITE_TRAP_MINI" value="LITE_TRAP_2POS" x="4.826" y="14.986" smashed="yes" rot="R180"/>
 <element name="IC5" library="microbuilder" package="SOIC8_150MIL" value="RTC_PCF8523T" x="37.338" y="43.688" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.449" y="46.355" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="34.163" y="40.64" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="G1" library="battery" package="10MM_SM_COIN_CELL_CLIP" value="10MM_SM_COIN_CELL_CLIP" x="8.636" y="45.339" rot="MR0"/>
-<element name="U$9" library="switch" package="MFS201N-9-Z" value="MFS201N-9-Z" x="10.414" y="7.747"/>
-<element name="U$3" library="v-reg" package="SOP08_GNDPAD" value="BD93291EFJSOP8_W_GND" x="33.147" y="17.272" rot="R180"/>
-<element name="L1" library="rcl" package="SLF10165" value="22uH" x="44.577" y="14.986" rot="R90">
-<attribute name="GRM32DF51H106ZA01L" value="" x="44.577" y="14.986" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="U$9" library="switch" package="MFS201N-9-Z" value="MFS201N-9-Z" x="10.414" y="7.747" smashed="yes"/>
+<element name="U$3" library="v-reg" package="SOP08_GNDPAD" value="BD93291EFJSOP8_W_GND" x="33.147" y="17.272" smashed="yes" rot="R180">
+<attribute name="NAME" x="36.322" y="20.447" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="28.702" y="20.447" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C_VC1" library="rcl" package="C1210" value="10uF" x="27.305" y="18.161" rot="R90"/>
-<element name="C_BST" library="rcl" package="C0603-ROUND" value="0.1uF" x="34.671" y="22.098"/>
-<element name="C_UP" library="rcl" package="C0603-ROUND" value="680pF" x="32.512" y="11.684" rot="R90"/>
-<element name="ANT2" library="con-molex" package="LITE_TRAP_MINI" value="ANT2_IN" x="4.826" y="48.768" rot="R180"/>
-<element name="ANT1" library="con-molex" package="LITE_TRAP_MINI" value="ANT1_IN" x="4.826" y="41.656" rot="R180"/>
-<element name="SJ1" library="jumper" package="SJW" value="" x="7.874" y="35.941" rot="R270"/>
-<element name="SJ2" library="jumper" package="SJW" value="" x="4.318" y="35.941" rot="R270"/>
-<element name="K1" library="relay" package="SOP08" value="G3VM-202J1" x="15.494" y="43.942" rot="R180">
+<element name="L1" library="rcl" package="SLF10165" value="22uH" x="44.577" y="14.986" smashed="yes" rot="R90">
+<attribute name="GRM32DF51H106ZA01L" value="" x="44.577" y="14.986" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="46.228" y="21.717" size="0.8128" layer="51" rot="R180"/>
+<attribute name="VALUE" x="51.181" y="9.652" size="0.8128" layer="51" rot="R180"/>
+</element>
+<element name="C_VC1" library="rcl" package="C1210" value="10uF" x="27.305" y="18.161" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.4" y="16.256" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="30.48" y="16.256" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="C_BST" library="rcl" package="C0603-ROUND" value="0.1uF" x="34.671" y="22.098" smashed="yes">
+<attribute name="NAME" x="33.782" y="22.86" size="1.27" layer="25"/>
+<attribute name="VALUE" x="33.782" y="20.066" size="1.27" layer="27"/>
+</element>
+<element name="C_UP" library="rcl" package="C0603-ROUND" value="680pF" x="32.512" y="11.684" smashed="yes" rot="R90">
+<attribute name="NAME" x="31.75" y="10.795" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="34.544" y="10.795" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="ANT2" library="con-molex" package="LITE_TRAP_MINI" value="ANT2_IN" x="4.826" y="48.768" smashed="yes" rot="R180"/>
+<element name="ANT1" library="con-molex" package="LITE_TRAP_MINI" value="ANT1_IN" x="4.826" y="41.656" smashed="yes" rot="R180"/>
+<element name="SJ1" library="jumper" package="SJW" value="" x="7.874" y="35.941" smashed="yes" rot="R270">
+<attribute name="NAME" x="9.652" y="38.1" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="7.874" y="34.941" size="0.02" layer="27" rot="R270"/>
+</element>
+<element name="SJ2" library="jumper" package="SJW" value="" x="4.318" y="35.941" smashed="yes" rot="R270">
+<attribute name="NAME" x="6.096" y="38.1" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="4.318" y="34.941" size="0.02" layer="27" rot="R270"/>
+</element>
+<element name="K1" library="relay" package="SOP08" value="G3VM-202J1" x="15.494" y="43.942" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="15.494" y="62.23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="15.494" y="62.23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="15.494" y="62.23" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="15.494" y="62.23" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="20.574" y="46.482" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="9.144" y="46.482" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="K2" library="relay" package="SOP08" value="G3VM-202J1" x="14.478" y="36.068">
+<element name="K2" library="relay" package="SOP08" value="G3VM-202J1" x="14.478" y="36.068" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="14.478" y="22.479" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="14.478" y="22.479" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="14.478" y="22.479" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="14.478" y="22.479" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="9.398" y="33.528" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="20.828" y="33.528" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U2" library="SparkFun-DigitalIC" package="SOT23-5" value="TC7SU04F" x="22.352" y="40.64" rot="R180">
+<element name="U2" library="SparkFun-DigitalIC" package="SOT23-5" value="TC7SU04F" x="22.352" y="40.64" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="8211" x="44.069" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NOTE" value="RETIRED" x="44.069" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="23.241" y="38.481" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="23.3045" y="40.8305" size="0.4064" layer="27" rot="R180"/>
 </element>
-<element name="R5" library="Resistenze" package="R0603-ROUND" value="10k" x="31.623" y="22.098">
+<element name="R5" library="Resistenze" package="R0603-ROUND" value="10k" x="31.623" y="22.098" smashed="yes">
 <attribute name="TYPE" value="Resistenze" x="31.623" y="22.098" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="_____" x="31.623" y="22.098" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER" value="_____" x="31.623" y="22.098" size="1.778" layer="27" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="31.623" y="22.098" size="1.778" layer="27" display="off"/>
 <attribute name="CASE" value="0603" x="31.623" y="22.098" size="1.778" layer="27" display="off"/>
 <attribute name="PART_NUMBER" value="CR0603JW103L" x="31.623" y="22.098" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="30.734" y="22.987" size="1.27" layer="25"/>
+<attribute name="VALUE" x="30.734" y="20.066" size="1.27" layer="27"/>
 </element>
-<element name="VDIV2" library="Resistenze" package="R0603-ROUND" value="1.8M" x="20.193" y="18.669" rot="R180">
+<element name="VDIV2" library="Resistenze" package="R0603-ROUND" value="1.8M" x="20.193" y="18.669" smashed="yes" rot="R180">
 <attribute name="PART_NUMBER" value="CR0603FW104L" x="20.193" y="18.669" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="21.082" y="17.78" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="21.082" y="20.701" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="VDIV1" library="Resistenze" package="R0603-ROUND" value="500K" x="20.193" y="20.32">
+<element name="VDIV1" library="Resistenze" package="R0603-ROUND" value="500K" x="20.193" y="20.32" smashed="yes">
 <attribute name="TYPE" value="Resistenze" x="20.193" y="20.32" size="1.778" layer="27" display="off"/>
 <attribute name="PART_NUMBER" value="" x="20.193" y="20.32" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="_____" x="20.193" y="20.32" size="1.778" layer="27" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="20.193" y="20.32" size="1.778" layer="27" display="off"/>
 <attribute name="CASE" value="0603" x="20.193" y="20.32" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER" value="_____" x="20.193" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="19.304" y="21.209" size="1.27" layer="25"/>
+<attribute name="VALUE" x="19.304" y="18.288" size="1.27" layer="27"/>
 </element>
-<element name="VDIV_USB" library="Resistenze" package="R0603-ROUND" value="?" x="20.193" y="21.971" rot="R180">
+<element name="VDIV_USB" library="Resistenze" package="R0603-ROUND" value="?" x="20.193" y="21.971" smashed="yes" rot="R180">
 <attribute name="TYPE" value="Resistenze" x="20.193" y="21.971" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PART_NUMBER" value="" x="20.193" y="21.971" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="_____" x="20.193" y="21.971" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="20.193" y="21.971" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CASE" value="0603" x="20.193" y="21.971" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SUPPLIER" value="_____" x="20.193" y="21.971" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="21.082" y="21.082" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="21.082" y="24.003" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="T_SD" library="transistor-fet" package="SOT23" value="P_CHANNEL_MOSFET_" x="37.338" y="34.036" rot="R90"/>
-<element name="U$1" library="Microchip_By_element14_Batch_1" package="SOT95P270X145-5N" value="MCP1824T-3302E/OT" x="13.589" y="14.478" rot="R180">
+<element name="T_SD" library="transistor-fet" package="SOT23" value="P_CHANNEL_MOSFET_" x="37.338" y="34.036" smashed="yes" rot="R90">
+<attribute name="NAME" x="35.433" y="32.131" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="40.513" y="32.131" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$1" library="Microchip_By_element14_Batch_1" package="SOT95P270X145-5N" value="MCP1824T-3302E/OT" x="13.589" y="14.478" smashed="yes" rot="R180">
 <attribute name="MPN" value="MCP1824T-3302E/OT" x="13.589" y="14.478" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="SOT23-5" x="13.589" y="14.478" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="40M0704" x="13.589" y="14.478" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1578387" x="13.589" y="14.478" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SUPPLIER" value="Microchip" x="13.589" y="14.478" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="17.8562" y="12.4206" size="1.4224" layer="25" ratio="10" rot="SR180"/>
+<attribute name="VALUE" x="19.05" y="18.5674" size="2.0828" layer="27" ratio="10" rot="SR180"/>
 </element>
-<element name="C2" library="Condensatori" package="C0603-ROUND" value="1u" x="10.541" y="14.478" rot="R270">
+<element name="C2" library="Condensatori" package="C0603-ROUND" value="1u" x="10.541" y="14.478" smashed="yes" rot="R270">
 <attribute name="PART_NUMBER" value="10nF_0603" x="10.541" y="14.478" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TYPE" value="Condensatori" x="10.541" y="14.478" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SUPPLIER" value="_____" x="10.541" y="14.478" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="10.541" y="14.478" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="_____" x="10.541" y="14.478" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CASE" value="0603" x="10.541" y="14.478" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="11.303" y="15.367" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="8.509" y="15.367" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C6" library="Condensatori" package="C0603-ROUND" value="4.7u" x="17.399" y="14.478">
+<element name="C6" library="Condensatori" package="C0603-ROUND" value="4.7u" x="17.399" y="14.478" smashed="yes">
 <attribute name="PART_NUMBER" value="10nF_0603" x="17.399" y="14.478" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="Condensatori" x="17.399" y="14.478" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER" value="_____" x="17.399" y="14.478" size="1.778" layer="27" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="17.399" y="14.478" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="_____" x="17.399" y="14.478" size="1.778" layer="27" display="off"/>
 <attribute name="CASE" value="0603" x="17.399" y="14.478" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="16.51" y="15.24" size="1.27" layer="25"/>
+<attribute name="VALUE" x="16.51" y="12.446" size="1.27" layer="27"/>
 </element>
-<element name="U1" library="Vishay_By_element14_Batch_1" package="SOT50P162X60-6N" value="SI1016CX-T1-GE3" x="15.494" y="20.574" rot="R180">
+<element name="U1" library="Vishay_By_element14_Batch_1" package="SOT50P162X60-6N" value="SI1016CX-T1-GE3" x="15.494" y="20.574" smashed="yes" rot="R180">
 <attribute name="SUPPLIER" value="VISHAY SILICONIX" x="15.494" y="20.574" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="SOT-5" x="15.494" y="20.574" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="64T4049" x="15.494" y="20.574" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="2056711" x="15.494" y="20.574" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="SI1016CX-T1-GE3" x="15.494" y="20.574" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="18.9484" y="18.034" size="2.0828" layer="25" ratio="10" rot="SR180"/>
+<attribute name="VALUE" x="18.9484" y="25.019" size="2.0828" layer="27" ratio="10" rot="SR180"/>
 </element>
-<element name="VDIV3" library="Resistenze" package="R0603-ROUND" value="200K" x="13.335" y="20.574" rot="R90">
+<element name="VDIV3" library="Resistenze" package="R0603-ROUND" value="200K" x="13.335" y="20.574" smashed="yes" rot="R90">
 <attribute name="PART_NUMBER" value="CR0603FW104L" x="13.335" y="20.574" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="12.446" y="19.685" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="15.367" y="19.685" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="D1" library="diode" package="SOD123FL" value="" x="21.971" y="16.891"/>
-<element name="VAR_C" library="mylibrary" package="TZB4Z100AB10R00" value="TZB4Z100AB10R00" x="15.875" y="30.099"/>
-<element name="R8" library="Resistenze" package="R0603-ROUND" value="10k" x="22.098" y="45.847" rot="R90">
+<element name="D1" library="diode" package="SOD123FL" value="" x="21.971" y="16.891" smashed="yes">
+<attribute name="NAME" x="19.971" y="17.891" size="1.27" layer="25"/>
+<attribute name="VALUE" x="19.971" y="14.391" size="1.27" layer="27"/>
+</element>
+<element name="VAR_C" library="mylibrary" package="TZB4Z100AB10R00" value="TZB4Z100AB10R00" x="15.875" y="30.099" smashed="yes"/>
+<element name="R8" library="Resistenze" package="R0603-ROUND" value="10k" x="22.098" y="45.847" smashed="yes" rot="R90">
 <attribute name="PRICE" value="_____" x="22.098" y="45.847" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER" value="_____" x="22.098" y="45.847" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CASE" value="0603" x="22.098" y="45.847" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_NUMBER" value="CR0603JW103L" x="22.098" y="45.847" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TYPE" value="Resistenze" x="22.098" y="45.847" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="22.098" y="45.847" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="21.209" y="44.958" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="24.13" y="44.958" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R10" library="Resistenze" package="R0603-ROUND" value="10k" x="40.64" y="23.368" rot="R180">
+<element name="R10" library="Resistenze" package="R0603-ROUND" value="10k" x="40.64" y="23.368" smashed="yes" rot="R180">
 <attribute name="PRICE" value="_____" x="40.64" y="23.368" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SUPPLIER" value="_____" x="40.64" y="23.368" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CASE" value="0603" x="40.64" y="23.368" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PART_NUMBER" value="CR0603JW103L" x="40.64" y="23.368" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TYPE" value="Resistenze" x="40.64" y="23.368" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="40.64" y="23.368" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="41.529" y="22.479" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="41.529" y="25.4" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="JP1" library="pinhead" package="1X02" value="" x="43.434" y="28.575" rot="R180"/>
+<element name="JP1" library="pinhead" package="1X02" value="" x="43.434" y="28.575" smashed="yes" rot="R180">
+<attribute name="NAME" x="46.0502" y="26.7462" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="45.974" y="31.75" size="1.27" layer="27" rot="R180"/>
+</element>
 </elements>
 <signals>
 <signal name="+5V" class="3">
